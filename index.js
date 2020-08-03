@@ -9,7 +9,7 @@ let totalTop = 320;
 // });
 
 $(document).ready(function(){
-    $(window).keyup(function(e){
+    $(window).keydown(function(e){
         if (e.keyCode === 39) {
             totalRight += 20;
             $("#black").animate( {left: totalRight});
@@ -90,6 +90,7 @@ reset.addEventListener('click', function(){
     $("#black").css("height", "20px");
     $("#black").css("left", "750px").css("top", "320px");
     $("#blue").css("display", "initial");
+    $("#toLevel2").css("display", "none");
 });
 
 $(document).ready(function(){
@@ -97,3 +98,13 @@ $(document).ready(function(){
         window.location.href = "levelTwo.html";
     });
 });
+
+
+// // LEVEL TWO LOGIC BELOW
+// let ranNum = Math.floor(Math.random() * 10);
+
+
+// let cb1 = document.getElementById("blackCard1");
+
+// alert('ffff');
+

@@ -6,6 +6,10 @@ h3 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 #hintOne {
     float: right;
     margin-right: 480px;
@@ -44,4 +48,51 @@ h3 {
     display: inline-block;
     width: 32px;
     height: 400px;
+}
+
+#cardDiv {
+    text-align: center;
+}
+
+#toLevel3 {
+    margin-left: 60px;
+    display: none;
+    font-weight: bold;
+}
+
+
+#mascot {
+    position: absolute;
+    left: 200px;
+    top: 320px;
+    width: 150px;
+    height: 200px;
+    /* display: none; */
+}
+
+#girl {
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    left: 100px;
+    top: 260px;
+    /* -webkit-transform: scaleX(-1); */
+    /* transform: scaleX(-1); */
+    display: none;
+}
+
+
+#missile {
+    position: absolute;
+    width: 550px;
+    height: 380px;
+    left: 60px;
+    top: 225px;
+    display: none;
+}
+
+#squarePort {
+    position: absolute;
+    left: 900px;
+    top: 380px;
 }
